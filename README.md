@@ -3,7 +3,7 @@ Angular material design with ionic 5
 
 
 # Output
-!["Final output"]('output.png')
+!["Final output"]('./output.png')
 
 # Contributor
 [Satpal Bhardwaj](https://sbsharma.com/ionic/)
