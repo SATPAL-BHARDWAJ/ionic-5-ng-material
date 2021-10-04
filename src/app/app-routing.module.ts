@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'confirm-dialog',
+    loadChildren: () => import('./confirm-dialog/confirm-dialog.module').then( m => m.ConfirmDialogPageModule)
+  },
 ];
 
 @NgModule({
